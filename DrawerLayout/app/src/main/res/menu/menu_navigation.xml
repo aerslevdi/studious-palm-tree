@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_bug"
+        android:title="Insecto"
+        android:icon="@drawable/ic_bug_report_black_24dp"
+        />
+    <item
+        android:id="@+id/item_fire"
+        android:title="Fuego"
+        android:icon="@drawable/ic_whatshot_black_24dp"
+        />
+    <item
+        android:id="@+id/item_electric"
+        android:title="Electrico"
+        android:icon="@drawable/ic_flash_on_black_24dp"
+        />
+
+</menu>

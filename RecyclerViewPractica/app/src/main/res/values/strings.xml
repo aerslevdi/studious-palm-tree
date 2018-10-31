@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RecyclerViewPractica</string>
+    <string name="donut">Donut</string>
+    <string name="eclair">Eclair</string>
+    <string name="froyo">Froyo</string>
+    <string name="gingerbread">Gingerbread</string>
+    <string name="honeycomb">Honeycomb</string>
+    <string name="icecream">Ice Cream Sandwich</string>
+    <string name="jellybean">Jelly Bean</string>
+    <string name="kitkat">KitKat</string>
+    <string name="lollipop">Lollipop</string>
+    <string name="marshmallow">Marshmallow</string>
+    <string name="nougat">Nougat</string>
+    <string name="oreo">Oreo</string>
+    <string name="pie">Pie</string>
+</resources>
