@@ -1,0 +1,16 @@
+{
+  "colores": [
+    {
+      "nombre": "Rojo",
+      "codigo": "#FF0000"
+    },
+    {
+      "nombre": "Verde",
+      "codigo": "#00FF00"
+    },
+    {
+      "nombre": "Azul",
+      "codigo": "#0000FF"
+    }
+  ]
+}

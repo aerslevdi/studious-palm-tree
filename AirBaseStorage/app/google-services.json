@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "728068589812",
+    "firebase_url": "https://airbasestorage-6c96d.firebaseio.com",
+    "project_id": "airbasestorage-6c96d",
+    "storage_bucket": "airbasestorage-6c96d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728068589812:android:8a0e0131fec1cc7e",
+        "android_client_info": {
+          "package_name": "com.example.digital.airbasestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728068589812-cg8u9at31umim1bomsfqtlmrdoe7920q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.digital.airbasestorage",
+            "certificate_hash": "6e205ec8bab6170cc3aacc71b5842a8156fc810e"
+          }
+        },
+        {
+          "client_id": "728068589812-u0649i86aeif5ggt629i5fn2k6uhlrdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA7FH3Fw1QdjQfQdpAHPzwbiS2nzWdAdQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728068589812-u0649i86aeif5ggt629i5fn2k6uhlrdl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

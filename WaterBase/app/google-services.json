@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "244881246121",
+    "firebase_url": "https://waterbase-758f0.firebaseio.com",
+    "project_id": "waterbase-758f0",
+    "storage_bucket": "waterbase-758f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244881246121:android:12b9818cf3d6c161",
+        "android_client_info": {
+          "package_name": "com.example.digital.waterbase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244881246121-g12ssgvnheslg17cd2t5cehkbn1ra7vk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.digital.waterbase",
+            "certificate_hash": "6e205ec8bab6170cc3aacc71b5842a8156fc810e"
+          }
+        },
+        {
+          "client_id": "244881246121-3lvc8dkq7gs6t4rc3nqocn1poc7gmup4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRFnO1IwnSIGBuwxJ3GTDm7MDD6KzjWR4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244881246121-3lvc8dkq7gs6t4rc3nqocn1poc7gmup4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

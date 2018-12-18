@@ -1,12 +1,14 @@
 package com.digitalhouse.recyclerviewpractica;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.Adapter;
+import android.widget.LinearLayout;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,21 +38,19 @@ public class MainActivity extends AppCompatActivity implements RecyclerAdapter.A
         datos.add(new AndroidVersion(getResources().getString(R.string.pie), R.drawable.pie));
 
         //TODO 4 Buscar el RecyclerView de la vista
-
-        RecyclerView recyclerView = findViewById(R.id.listaAndroid);
+        RecyclerView recyclerView = findViewById(R.id.recyclerView);
 
         //TODO 5 Setear al RecyclerView mejora en la performance
         recyclerView.setHasFixedSize(true);
 
         //TODO 6 Crear un LinearLayoutManager
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false);
-
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
 
         //TODO 7 Setear el LinearLayoutManager creado al RecyclerView
         recyclerView.setLayoutManager(layoutManager);
 
         //TODO 8 Crear un Adaptador para el Recycler y pasarle la lista de datos por constructor
-        RecyclerAdapter recyclerAdapter =new RecyclerAdapter(datos);
+        RecyclerAdapter recyclerAdapter = new RecyclerAdapter(this, datos);
 
         //TODO 9 Setear el Adaptador al RecyclerView
         recyclerView.setAdapter(recyclerAdapter);
@@ -60,6 +60,14 @@ public class MainActivity extends AppCompatActivity implements RecyclerAdapter.A
     @Override
     public void irDetalle(AndroidVersion version) {
         // TODO 29 Mediante comunicacion entre Activities, ir a DetalleActivity pasando el dato version por Bundle
+        Intent intent = new Intent(this, DetalleActivity.class);
 
+        Bundle bundle = new Bundle();
+        bundle.putString(DetalleActivity.KEY_NOMBRE, version.getNombre());
+        bundle.putInt(DetalleActivity.KEY_IMAGEN, version.getImagen());
+
+        intent.putExtras(bundle);
+
+        startActivity(intent);
     }
 }

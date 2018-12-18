@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FacebookTurnoTarde</string>
+    <string name="facebook_app_id">470974176726230</string>
+    <string name="fb_login_protocol_scheme">fb470974176726230</string>
+
+</resources>

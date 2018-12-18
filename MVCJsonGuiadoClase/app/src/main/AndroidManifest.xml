@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.digitalhouse.mvcjsonguiado">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".v1.ActivityRecyclerViewProductos" />
+        <activity android:name=".v1.ActivityViewPagerProductos" />
+        <activity android:name=".v2Refactor.ActivityRecyclerViewProductos" />
+        <activity android:name=".v2Refactor.ActivityViewPagerProductos" />
+        <activity android:name=".v3Offline.ActivityRecyclerViewProductos" />
+        <activity android:name=".v3Offline.ActivityViewPagerProductos" />
+        <activity android:name=".v4Refactor.ActivityRecyclerViewProductos" />
+        <activity android:name=".v4Refactor.ActivityViewPagerProductos" />
+        <activity android:name=".v5LastRefactor.View.activities.ActivityRecyclerViewProductos">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".v5LastRefactor.View.activities.ActivityViewPagerProductos" >
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+    </application>
+
+</manifest>

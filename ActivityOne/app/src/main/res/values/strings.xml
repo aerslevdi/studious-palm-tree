@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ActivityOne</string>
+    <string name="button">Click me</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="plus">More</string>
+</resources>

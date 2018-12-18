@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "743880582882",
+    "firebase_url": "https://logintt-26a82.firebaseio.com",
+    "project_id": "logintt-26a82",
+    "storage_bucket": "logintt-26a82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743880582882:android:6b230732447242da",
+        "android_client_info": {
+          "package_name": "com.digitalhouse.facebookturnotarde"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743880582882-nstu1goihp6f9quac8hgeh9u3jntsh95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digitalhouse.facebookturnotarde",
+            "certificate_hash": "13f59a589dc09aaad903b4b0e731fbc18a7c917c"
+          }
+        },
+        {
+          "client_id": "743880582882-fp0cp4adq0gcjpgp8t0f29nc21oh9oap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2_mg_G3vh6WCs0mt4B3YRTf5j2okgWDw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743880582882-fp0cp4adq0gcjpgp8t0f29nc21oh9oap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743880582882:android:c9652fed572c13cb",
+        "android_client_info": {
+          "package_name": "com.digitalhouse.firbasestoragettxd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743880582882-gnjamur0ubnf0ghm1s9fvbtgc3mu0h7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digitalhouse.firbasestoragettxd",
+            "certificate_hash": "13f59a589dc09aaad903b4b0e731fbc18a7c917c"
+          }
+        },
+        {
+          "client_id": "743880582882-fp0cp4adq0gcjpgp8t0f29nc21oh9oap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2_mg_G3vh6WCs0mt4B3YRTf5j2okgWDw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743880582882-fp0cp4adq0gcjpgp8t0f29nc21oh9oap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743880582882:android:47203443d5e236f4",
+        "android_client_info": {
+          "package_name": "com.digitalhouse.firebasedatabasettxd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743880582882-devc5j2hl9l1oktur4tq0872h0gagm14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digitalhouse.firebasedatabasettxd",
+            "certificate_hash": "13f59a589dc09aaad903b4b0e731fbc18a7c917c"
+          }
+        },
+        {
+          "client_id": "743880582882-fp0cp4adq0gcjpgp8t0f29nc21oh9oap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2_mg_G3vh6WCs0mt4B3YRTf5j2okgWDw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743880582882-fp0cp4adq0gcjpgp8t0f29nc21oh9oap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

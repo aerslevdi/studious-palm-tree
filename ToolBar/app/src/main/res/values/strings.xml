@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppBar</string>
+
+    <string name="hint_fragment1">Escriba su nombre</string>
+    <string name="button_fragment1">Ok</string>
+    <string name="text_fragment2">Bienvenido</string>
+
+</resources>
